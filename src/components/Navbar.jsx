@@ -59,7 +59,7 @@ export default function Navbar() {
             className="mobile-menu"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 1}}
+            exit={{ opacity: 0}}
           >
             <button className="mobile-close icon-button" aria-label="Close menu" onClick={() => setOpen(false)}>
               <X size={24} />
